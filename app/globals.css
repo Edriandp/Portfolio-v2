@@ -83,8 +83,44 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    cursor: none;
   }
   body {
     @apply bg-background text-foreground;
   }
+  a, button {
+    cursor: none;
+  }
+}
+
+/* Animated Custom Cursor */
+.cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background-color: oklch(0.75 0.12 180);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.05s ease;
+}
+
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  border: 2px solid oklch(0.75 0.12 180 / 0.5);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+  transition: transform 0.10s ease, width 0.2s ease, height 0.2s ease;
+}
+
+.cursor-outline.hover {
+  width: 48px;
+  height: 48px;
 }

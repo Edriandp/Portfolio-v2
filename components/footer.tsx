@@ -5,10 +5,9 @@ import Link from "next/link";
 import { useLanguage } from "@/contexts/language-context";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:alex@example.com", label: "Email" },
+  { icon: Github, href: "https://github.com/Edriandp", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/edrian-díaz-pérez-4471032bb/", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:edriandiazperez3@gmail.com", label: "Email" },
 ];
 
 export function Footer() {

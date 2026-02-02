@@ -4,10 +4,9 @@ import { Github, Linkedin, Twitter, Mail } from "lucide-react";
 import Link from "next/link";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:alex@example.com", label: "Email" },
+  { icon: Github, href: "https://github.com/Edriandp", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/edrian-díaz-pérez-4471032bb/", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:edriandiazperez3@gmail.com", label: "Email" },
 ];
 
 export function SocialSidebar() {
@@ -33,11 +32,11 @@ export function SocialSidebar() {
       {/* Right Side - Email */}
       <div className="hidden md:flex fixed bottom-0 right-6 lg:right-12 flex-col items-center gap-6">
         <Link
-          href="mailto:alex@example.com"
+          href="mailto:edriandiazperez3@gmail.com"
           className="font-mono text-xs text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all duration-200"
           style={{ writingMode: "vertical-rl" }}
         >
-          alex@example.com
+          edriandiazperez3@gmail.com
         </Link>
         <div className="w-px h-24 bg-muted-foreground" />
       </div>

@@ -61,7 +61,7 @@ export function Navigation() {
             ))}
           </ul>
           <Link
-            href="/resume.pdf"
+            href="./Resume.pdf"
             className="border border-primary text-primary px-4 py-2 rounded text-sm font-mono hover:bg-primary/10 transition-colors"
             target="_blank"
             rel="noopener noreferrer"

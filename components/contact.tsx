@@ -16,8 +16,10 @@ export function Contact() {
         {t.contact.description}
       </p>
       <Link
-        href="mailto:alex@example.com"
-        className="inline-block border border-primary text-primary px-8 py-4 rounded font-mono text-sm hover:bg-primary/10 transition-colors duration-200"
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=edriandiazperez3@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block border border-primary text-primary px-8 py-4 rounded font-mono text-sm hover:bg-primary/10 transition-colors duration-200 animate-bounce"
       >
         {t.contact.cta}
       </Link>

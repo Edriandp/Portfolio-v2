@@ -32,7 +32,7 @@ const translations = {
     about: {
       title: "About Me",
       p1: "Hello! I'm Edrian, a passionate full stack developer based in Tenerife. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.",
-      p2: "I started my journey in web development back in 2023 when I decided to try editing custom Tumblr themes — turns out hacking together HTML & CSS taught me a lot about how the web works!",
+      p2: "I started my journey in web development back in 2023 when I decided to try and make my own web — turns out hacking together HTML & CSS taught me a lot about how the web works!",
       p3: "Fast-forward to today, and I've had the privilege of working at a consulting and digitalization company, and several personal projects that have helped me grow as a developer.",
       techTitle: "Here are a few technologies I've been working with recently:",
     },
@@ -117,7 +117,7 @@ const translations = {
     },
     // Footer
     footer: {
-      credit: "Designed & Built by Alex Chen",
+      credit: "Designed & Built by Edrian Díaz",
     },
   },
   es: {
@@ -132,7 +132,7 @@ const translations = {
     // Hero
     hero: {
       greeting: "Hola, mi nombre es",
-      name: "Alex Chen.",
+      name: "Edrian Díaz.",
       tagline: "Construyo cosas para la web.",
       description:
         "Soy un desarrollador full stack especializado en crear experiencias digitales excepcionales. Actualmente enfocado en crear productos accesibles y centrados en el usuario que marquen la diferencia.",
@@ -141,9 +141,9 @@ const translations = {
     // About
     about: {
       title: "Sobre Mi",
-      p1: "¡Hola! Soy Alex, un apasionado desarrollador full stack con sede en San Francisco. Disfruto creando cosas que viven en internet, ya sean sitios web, aplicaciones o cualquier cosa intermedia. Mi objetivo es siempre construir productos que ofrezcan experiencias perfectas y de alto rendimiento.",
-      p2: "Comencé mi viaje en el desarrollo web en 2018 cuando decidí probar a editar temas personalizados de Tumblr — ¡resulta que juntar HTML y CSS me enseñó mucho sobre cómo funciona la web!",
-      p3: "Avanzando hasta hoy, he tenido el privilegio de trabajar en una startup, una gran corporación y un estudio de diseño dirigido por estudiantes. Mi enfoque principal en estos días es construir productos accesibles e inclusivos y experiencias digitales.",
+      p1: "¡Hola! Soy Edrian, un apasionado desarrollador full stack con sede en San Francisco. Disfruto creando cosas que viven en internet, ya sean sitios web, aplicaciones o cualquier cosa intermedia. Mi objetivo es siempre construir productos que ofrezcan experiencias perfectas y de alto rendimiento.",
+      p2: "Comencé mi viaje en el desarrollo web en 2023 cuando decidí probar a crear mi propia pagina web — ¡resulta que juntar HTML y CSS me enseñó mucho sobre cómo funciona la web!",
+      p3: "Avanzando hasta hoy, he tenido el privilegio de trabajar en una consultoría, y en proyectos personales con el objetivo de crecer como desarrollador. Mi enfoque principal en estos días es construir productos accesibles e inclusivos y experiencias digitales.",
       techTitle: "Aquí hay algunas tecnologías con las que he estado trabajando recientemente:",
     },
     // Experience
@@ -151,49 +151,17 @@ const translations = {
       title: "Donde He Trabajado",
       jobs: [
         {
-          company: "TechFlow Inc",
-          role: "Desarrollador Full Stack Senior",
-          period: "2023 — Presente",
+          company: "E-asy",
+          role: "Desarrollador Full Stack Junior",
+          period: "2025 — Presente",
           description: [
-            "Lidero el desarrollo de una plataforma SaaS que sirve a más de 50,000 usuarios activos mensuales usando Next.js, TypeScript y PostgreSQL",
-            "Diseñé e implementé un sistema de colaboración en tiempo real usando WebSockets, reduciendo la latencia en un 60%",
-            "Mentoré a desarrolladores junior y establecí estándares de revisión de código que mejoraron la productividad del equipo en un 25%",
-            "Colaboré con equipos de producto y diseño para lanzar más de 15 funciones manteniendo un 99.9% de tiempo activo",
+            "Diseño de frontend con REACT y Tailwind CSS para crear interfaces responsivas y fáciles de usar",
+            "Comunicación de frontend con APIs usando Axios y Fetch para una integración de datos perfecta",
+            "Desarrollo de backend con Node.js y Express para construir aplicaciones robustas del lado del servidor",
+            "Gestión de bases de datos usando MongoDB y Mongoose para un almacenamiento y recuperación de datos eficiente",
           ],
         },
-        {
-          company: "DataSync Solutions",
-          role: "Desarrollador Full Stack",
-          period: "2021 — 2023",
-          description: [
-            "Construí y mantuve múltiples aplicaciones orientadas al cliente usando React, Node.js y MongoDB",
-            "Desarrollé APIs RESTful y endpoints GraphQL sirviendo millones de solicitudes por día",
-            "Implementé pipelines CI/CD que redujeron el tiempo de despliegue de horas a minutos",
-            "Integré APIs de terceros incluyendo Stripe, Twilio y SendGrid para funciones de pago y comunicación",
-          ],
-        },
-        {
-          company: "StartupHub",
-          role: "Desarrollador Junior",
-          period: "2019 — 2021",
-          description: [
-            "Desarrollé aplicaciones web responsivas usando React y JavaScript moderno (ES6+)",
-            "Colaboré con diseñadores UX para implementar interfaces pixel-perfect y accesibles",
-            "Escribí pruebas unitarias e de integración logrando 85% de cobertura de código en toda la base de código",
-            "Participé en procesos de desarrollo ágil incluyendo reuniones diarias y planificación de sprints",
-          ],
-        },
-        {
-          company: "Freelance",
-          role: "Desarrollador Web",
-          period: "2018 — 2019",
-          description: [
-            "Diseñé y construí sitios web personalizados para pequeñas empresas y emprendedores",
-            "Creé temas y plugins de WordPress adaptados a los requisitos del cliente",
-            "Gestioné relaciones con clientes y entregué proyectos a tiempo y dentro del presupuesto",
-            "Gané experiencia con optimización SEO y análisis de sitios web",
-          ],
-        },
+        
       ],
     },
     // Projects
@@ -203,19 +171,19 @@ const translations = {
       otherTitle: "Otros Proyectos Notables",
       featured: [
         {
-          title: "CloudSync Dashboard",
+          title: "CRUDUI Dashboard",
           description:
             "Una plataforma integral de gestión en la nube que permite a los usuarios monitorear, analizar y optimizar su infraestructura en la nube en múltiples proveedores. Incluye métricas en tiempo real, análisis de costos y recomendaciones de escalado automatizado.",
         },
         {
-          title: "DevCollab",
+          title: "Weather App",
           description:
-            "Editor de código colaborativo en tiempo real con soporte para múltiples lenguajes de programación, cursores en vivo y videollamada integrada. Construido para que equipos de desarrollo remoto programen en pareja de manera efectiva desde cualquier lugar.",
+            "Aplicacion de movil desarrollada en con Kotlin que proporciona datos meteorológicos en tiempo real, pronósticos y alertas personalizadas. Incluye integración con API de terceros para mejorar la precisión y la experiencia del usuario.",
         },
         {
-          title: "FinTrack Pro",
+          title: "Porfolio personal",
           description:
-            "Aplicación de gestión de finanzas personales con información impulsada por IA, seguimiento de gastos y análisis de cartera de inversiones. Se integra con los principales bancos y proporciona recomendaciones financieras personalizadas.",
+            "Mi portafolio personal construido con Next.js y Tailwind CSS para mostrar mis proyectos, habilidades y experiencia. Incluye un diseño receptivo, modo oscuro y optimización para SEO.",
         },
       ],
       other: [
@@ -261,7 +229,7 @@ const translations = {
     },
     // Footer
     footer: {
-      credit: "Diseñado y Construido por Alex Chen",
+      credit: "Diseñado y Construido por Edrian Díaz",
     },
   },
 };
