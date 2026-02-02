@@ -43,7 +43,7 @@ export function Navigation() {
           href="/"
           className="text-primary font-bold text-2xl hover:opacity-80 transition-opacity"
         >
-          AC
+          ED
         </Link>
 
         {/* Desktop Navigation */}

@@ -247,7 +247,7 @@ const translations = {
         {
           title: "Portfolio Template",
           description:
-            "PlantillA de portafolio personalizable para desarrolladores con modo oscuro y múltiples opciones de diseño.",
+            "Plantilla de portafolio personalizable para desarrolladores con modo oscuro y múltiples opciones de diseño.",
         },
       ],
     },
@@ -277,7 +277,7 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>("en");
+  const [language, setLanguage] = useState<Language>("es");
 
   const value = {
     language,

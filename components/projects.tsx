@@ -6,20 +6,20 @@ import { useLanguage } from "@/contexts/language-context";
 
 const featuredProjectsMeta = [
   {
-    technologies: ["Next.js", "TypeScript", "PostgreSQL", "Redis", "AWS"],
-    github: "https://github.com",
+    technologies: ["Java.js", "Java FX"],
+    github: "https://github.com/Edriandp/CRUDUI-JavaFX",
     external: "https://example.com",
     image: "dashboard",
   },
   {
-    technologies: ["React", "Socket.io", "Node.js", "Monaco Editor", "WebRTC"],
-    github: "https://github.com",
+    technologies: ["Material Component", "Kotlin", "Node.js"],
+    github: "https://github.com/Edriandp/OpenWeatherAPI-App",
     external: "https://example.com",
     image: "collab",
   },
   {
-    technologies: ["Next.js", "Python", "FastAPI", "OpenAI", "Plaid API"],
-    github: "https://github.com",
+    technologies: ["Next.js", "JavaScript", "React.js", "Tailwind CSS"],
+    github: "https://github.com/Edriandp/portolio-v2",
     external: "https://example.com",
     image: "finance",
   },
@@ -99,10 +99,10 @@ export function Projects() {
                   index % 2 === 1 ? "md:left-0" : "md:right-0"
                 } z-10`}
               >
-                <p className="font-mono text-primary text-sm mb-2">
+                <p className="ml-6 mr-6 font-mono text-primary text-sm mb-2">
                   {t.projects.featuredLabel}
                 </p>
-                <h3 className="text-2xl font-bold text-foreground mb-4">
+                <h3 className="ml-6 mr-6 text-2xl font-bold text-foreground mb-4">
                   {project.title}
                 </h3>
                 <div className="bg-card p-6 rounded shadow-lg mb-4">
@@ -111,7 +111,7 @@ export function Projects() {
                   </p>
                 </div>
                 <ul
-                  className={`flex flex-wrap gap-3 font-mono text-sm text-muted-foreground mb-4 ${
+                  className={`ml-6 mr-6  flex flex-wrap gap-3 font-mono text-sm text-muted-foreground mb-4 ${
                     index % 2 === 1 ? "md:justify-end" : ""
                   }`}
                 >
@@ -120,7 +120,7 @@ export function Projects() {
                   ))}
                 </ul>
                 <div
-                  className={`flex gap-4 ${
+                  className={`ml-6 mr-6 flex gap-4 ${
                     index % 2 === 1 ? "md:justify-end" : ""
                   }`}
                 >
