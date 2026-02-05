@@ -133,24 +133,16 @@ export function Projects() {
                   >
                     <Github className="w-5 h-5" />
                   </Link>
-                  <Link
-                    href={meta.external}
-                    aria-label="External Link"
-                    className="text-foreground hover:text-primary transition-colors"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <ExternalLink className="w-5 h-5" />
-                  </Link>
+                  
                 </div>
               </div>
             </div>
           );
         })}
       </div>
-
+      
       {/* Other Projects */}
-      <h3 className="text-xl font-bold text-foreground text-center mb-8">
+      {/* <h3 className="text-xl font-bold text-foreground text-center mb-8">
         {t.projects.otherTitle}
       </h3>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -202,7 +194,7 @@ export function Projects() {
             </div>
           );
         })}
-      </div>
+      </div> */}
     </section>
   );
 }

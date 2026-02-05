@@ -3,6 +3,8 @@
 import { useLanguage } from "@/contexts/language-context";
 
 const skills = [
+  "React.js",
+  "tailwind CSS",
   "JavaScript (ES6+)",
   "TypeScript",
   "React",

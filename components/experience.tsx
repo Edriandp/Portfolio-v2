@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { useLanguage } from "@/contexts/language-context";
 
 const technologies = [
-  ["Next.js", "TypeScript", "PostgreSQL", "Redis", "AWS"],
+  ["React.js","tailwind CSS","Next.js", "TypeScript", "PostgreSQL", "Redis", "AWS"],
   ["React", "Node.js", "MongoDB", "GraphQL", "Docker"],
   ["React", "JavaScript", "SCSS", "Jest", "Git"],
   ["HTML", "CSS", "JavaScript", "WordPress", "PHP"],
