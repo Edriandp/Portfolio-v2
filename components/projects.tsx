@@ -19,7 +19,7 @@ const featuredProjectsMeta = [
   },
   {
     technologies: ["Next.js", "JavaScript", "React.js", "Tailwind CSS"],
-    github: "https://github.com/Edriandp/portolio-v2",
+    github: "https://github.com/Edriandp/Portfolio-v2",
     external: "https://example.com",
     image: "finance",
   },
