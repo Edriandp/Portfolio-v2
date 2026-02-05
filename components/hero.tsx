@@ -7,9 +7,8 @@ import { useLanguage } from "@/contexts/language-context";
 const socialLinks = [
   { icon: Github, href: "https://github.com/Edriandp", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/edrian-díaz-pérez-4471032bb/", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:edriandiazperez3@gmail.com", label: "Email" },
+  { icon: Mail, href: "https://mail.google.com/mail/?view=cm&fs=1&to=edriandiazperez3@gmail.com", target: "_blank", rel: "noopener noreferrer", label: "Email" },
 ];
-
 export function Hero() {
   const { t } = useLanguage();
 

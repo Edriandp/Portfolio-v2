@@ -143,7 +143,7 @@ const translations = {
       title: "Sobre Mi",
       p1: "¡Hola! Soy Edrian, un apasionado desarrollador full stack con sede en San Francisco. Disfruto creando cosas que viven en internet, ya sean sitios web, aplicaciones o cualquier cosa intermedia. Mi objetivo es siempre construir productos que ofrezcan experiencias perfectas y de alto rendimiento.",
       p2: "Comencé mi viaje en el desarrollo web en 2023 cuando decidí probar a crear mi propia pagina web — ¡resulta que juntar HTML y CSS me enseñó mucho sobre cómo funciona la web!",
-      p3: "Avanzando hasta hoy, he tenido el privilegio de trabajar en una consultoría, y en proyectos personales con el objetivo de crecer como desarrollador. Mi enfoque principal en estos días es construir productos accesibles e inclusivos y experiencias digitales.",
+      p3: "Avanzando hasta hoy, he tenido el privilegio de trabajar en una consultoría y digitalización, y en proyectos personales con el objetivo de crecer como desarrollador. Mi enfoque principal en estos días es construir productos accesibles e inclusivos y experiencias digitales.",
       techTitle: "Aquí hay algunas tecnologías con las que he estado trabajando recientemente:",
     },
     // Experience

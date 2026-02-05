@@ -13,10 +13,10 @@ const skills = [
   "Python",
   "PostgreSQL",
   "MongoDB",
-  "GraphQL",
   "AWS",
   "Docker",
-  "Tailwind CSS",
+  "github",
+  "git"
 ];
 
 export function About() {

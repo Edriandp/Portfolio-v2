@@ -6,7 +6,7 @@ import Link from "next/link";
 const socialLinks = [
   { icon: Github, href: "https://github.com/Edriandp", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/edrian-díaz-pérez-4471032bb/", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:edriandiazperez3@gmail.com", label: "Email" },
+  { icon: Mail, href: "https://mail.google.com/mail/?view=cm&fs=1&to=edriandiazperez3@gmail.com", target: "_blank", rel: "noopener noreferrer", label: "Email" },
 ];
 
 export function SocialSidebar() {
@@ -32,7 +32,8 @@ export function SocialSidebar() {
       {/* Right Side - Email */}
       <div className="hidden md:flex fixed bottom-0 right-6 lg:right-12 flex-col items-center gap-6">
         <Link
-          href="mailto:edriandiazperez3@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=edriandiazperez3@gmail.com"
+          target="_blank"
           className="font-mono text-xs text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all duration-200"
           style={{ writingMode: "vertical-rl" }}
         >
