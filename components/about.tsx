@@ -3,20 +3,18 @@
 import { useLanguage } from "@/contexts/language-context";
 
 const skills = [
+  "N8N",
+  "Java",
+  "spring boot",
   "React.js",
+  "Angular",
   "tailwind CSS",
   "JavaScript (ES6+)",
   "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
   "Python",
-  "PostgreSQL",
   "MongoDB",
-  "AWS",
   "Docker",
   "github",
-  "git"
 ];
 
 export function About() {
@@ -49,10 +47,19 @@ export function About() {
           </ul>
         </div>
 
-        <div className="relative group">
-          
-          <div className="absolute inset-0 border-2 border-primary rounded translate-x-4 translate-y-4 -z-10 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"><img src="/portrait.jpg" alt="Edrian Díaz" className="rounded w-full h-full object-cover"/></div>
-        </div>
+        <div className="relative group w-full max-w-sm mx-auto">
+  {/* Image on top */}
+  <div className="relative z-10 rounded overflow-hidden">
+    <img
+      src="/portrait.jpg"
+      alt="Edrian Díaz"
+      className="w-full h-auto block rounded"
+    />
+  </div>
+
+  {/* Decorative offset border behind */}
+  <div className="absolute inset-0 border-2 border-primary rounded translate-x-4 translate-y-4 z-0 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300" />
+</div>
       </div>
     </section>
   );

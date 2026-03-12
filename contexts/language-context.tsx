@@ -31,9 +31,9 @@ const translations = {
     // About
     about: {
       title: "About Me",
-      p1: "Hello! I'm Edrian, a passionate full stack developer based in Tenerife. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.",
-      p2: "I started my journey in web development back in 2023 when I decided to try and make my own web — turns out hacking together HTML & CSS taught me a lot about how the web works!",
-      p3: "Fast-forward to today, and I've had the privilege of working at a consulting and digitalization company, and several personal projects that have helped me grow as a developer.",
+      p1: "Hello! I'm Edrian, a passionate full stack developer based in Tenerife. I enjoy creating things that live on the internet. My goal is to always build products that provide pixel-perfect, performant experiences.",
+      p2: "I started my journey in the world of development in 2023, when I decided to dive into the sector of technology and create my own website.",
+      p3: "Fast-forward to today, and I've had the privilege of aplying my knowledge in the sector of Digitalization and Process Automation.",
       techTitle: "Here are a few technologies I've been working with recently:",
     },
     // Experience
@@ -43,13 +43,24 @@ const translations = {
         {
           company: "E-asy",
           role: "Junio Full Stack Developer",
-          period: "2025 — Present",
+          period: "2025 — 2025",
           description: [
             "Frontend Design with REACT and Tailwind CSS to create responsive and user-friendly interfaces",
             "Frontend communication with APIs using Axios and Fetch for seamless data integration",
             "Backend Development with Node.js and Express to build robust server-side applications",
             "Database Management using MongoDB and Mongoose for efficient data storage and retrieval",
           ],
+        },
+        {
+          company: "GF Hotels",
+          role: "Full Stack Developer & Artificial Intelligence",
+          period: "2026 — present",
+          description: [
+            "Process automation using AI and n8n to optimize tasks and workflows",
+            "Administration and maintenance of ERP, PMS, and POS systems",
+            "Web application development using the Django Framework",
+            "System and service integration through APIs and automations"
+        ],
         }],
     },
     // Projects
@@ -112,7 +123,7 @@ const translations = {
       label: "04. What's Next?",
       title: "Get In Touch",
       description:
-        "I'm currently looking for new opportunities and my inbox is always open. Whether you have a question, want to collaborate on a project, or just want to say hi, I'll try my best to get back to you!",
+        "My inbox is always open. Whether you have a question, want to collaborate on a project, or just want to say hi, I'll try my best to get back to you!",
       cta: "Say Hello",
     },
     // Footer
@@ -141,9 +152,9 @@ const translations = {
     // About
     about: {
       title: "Sobre Mi",
-      p1: "¡Hola! Soy Edrian, un apasionado desarrollador full stack con sede en San Francisco. Disfruto creando cosas que viven en internet, ya sean sitios web, aplicaciones o cualquier cosa intermedia. Mi objetivo es siempre construir productos que ofrezcan experiencias perfectas y de alto rendimiento.",
-      p2: "Comencé mi viaje en el desarrollo web en 2023 cuando decidí probar a crear mi propia pagina web — ¡resulta que juntar HTML y CSS me enseñó mucho sobre cómo funciona la web!",
-      p3: "Avanzando hasta hoy, he tenido el privilegio de trabajar en una consultoría y digitalización, y en proyectos personales con el objetivo de crecer como desarrollador. Mi enfoque principal en estos días es construir productos accesibles e inclusivos y experiencias digitales.",
+      p1: "¡Hola! Soy Edrian, un apasionado desarrollador full stack con sede en Santa Cruz de Tenerife. Disfruto creando cosas que viven en internet. Mi objetivo es siempre construir productos que ofrezcan experiencias de calidad y de alto rendimiento.",
+      p2: "Comencé mi viaje en el mundo desarrollo en 2023, cuando decidí adentrarme en el sector de la tecnología y crear mi propia web.",
+      p3: "Avanzando hasta hoy, he tenido el privilegio de trabajar de aplicar mis conocimientos en sector de la Digatilización y Automatización de Procesos.",
       techTitle: "Aquí hay algunas tecnologías con las que he estado trabajando recientemente:",
     },
     // Experience
@@ -153,7 +164,7 @@ const translations = {
         {
           company: "E-asy",
           role: "Desarrollador Full Stack Junior",
-          period: "2025 — Presente",
+          period: "2025 — 2025",
           description: [
             "Diseño de frontend con REACT y Tailwind CSS para crear interfaces responsivas y fáciles de usar",
             "Comunicación de frontend con APIs usando Axios y Fetch para una integración de datos perfecta",
@@ -161,9 +172,21 @@ const translations = {
             "Gestión de bases de datos usando MongoDB y Mongoose para un almacenamiento y recuperación de datos eficiente",
           ],
         },
-        
+        {
+          company: "Gf Hoteles",
+          role: "Desarrollador Full Stack e Inteligenia Artificial",
+          period: "2026 — Presente",
+          description: [
+            "Automatización de procesos con IA y n8n para optimizar tareas y flujos de trabajo",
+            "Administración y mantenimiento de sistemas ERP, PMS y TPV",
+            "Desarrollo de aplicaciones web con Django Framework",
+            "Integración de sistemas y servicios mediante APIs y automatizaciones"
+          ],
+        }
+
       ],
     },
+
     // Projects
     projects: {
       title: "Algunas Cosas Que He Construido",
@@ -224,7 +247,7 @@ const translations = {
       label: "04. ¿Qué Sigue?",
       title: "Ponte en Contacto",
       description:
-        "Actualmente estoy buscando nuevas oportunidades y mi bandeja de entrada siempre está abierta. Ya sea que tengas una pregunta, quieras colaborar en un proyecto o simplemente quieras saludar, ¡haré mi mejor esfuerzo para responderte!",
+        "Mi bandeja de entrada siempre está abierta. Ya sea que tengas una pregunta, quieras colaborar en un proyecto o simplemente quieras saludar, ¡haré mi mejor esfuerzo para responderte!",
       cta: "Di Hola",
     },
     // Footer

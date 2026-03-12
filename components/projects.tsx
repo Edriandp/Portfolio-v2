@@ -85,11 +85,7 @@ export function Projects() {
               >
                 <div className="relative overflow-hidden rounded bg-secondary aspect-video">
                   <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors duration-300 z-10" />
-                  <div className="w-full h-full bg-gradient-to-br from-primary/30 to-secondary flex items-center justify-center">
-                    <span className="text-4xl font-bold text-primary/50">
-                      {meta.image.toUpperCase()}
-                    </span>
-                  </div>
+                  
                 </div>
               </div>
 

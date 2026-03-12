@@ -6,9 +6,7 @@ import { useLanguage } from "@/contexts/language-context";
 
 const technologies = [
   ["React.js","tailwind CSS","Next.js", "TypeScript", "PostgreSQL", "Redis", "AWS"],
-  ["React", "Node.js", "MongoDB", "GraphQL", "Docker"],
-  ["React", "JavaScript", "SCSS", "Jest", "Git"],
-  ["HTML", "CSS", "JavaScript", "WordPress", "PHP"],
+  ["N8N", "Django", "SAGE X3", "Docker Compose", "GitHub Actions", "APIs RESTful"],
 ];
 
 export function Experience() {
